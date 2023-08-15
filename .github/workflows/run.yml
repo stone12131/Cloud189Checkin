@@ -35,6 +35,6 @@ jobs:
         TY_PASSWORD4: ${{secrets.TY_PASSWORD4}}
         SENDKEY: ${{secrets.SENDKEY}}
       with:
-        timeout_minutes: 10
+        timeout_minutes: 9
         max_attempts: 3
         command: npm start
